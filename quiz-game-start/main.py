@@ -12,8 +12,3 @@ while quiz.still_has_question():
     quiz.next_question()
 print("You have completed the quiz!")
 print(f"Your current score is {quiz.score}/{len(question_bank)}")
-
-
-
-
-
